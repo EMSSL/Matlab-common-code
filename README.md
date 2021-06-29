@@ -6,4 +6,4 @@ There should be one m-file for each category of tips. If you make an m-file, ple
 The _makingImages.m_ file provides tips on making images for presentations and for publication. The powerpoint presentation called _makingImages.pptx_ has some of the images made from the techniques described in the m-file. All the image files called crappy, better, and good go with this m-file.
 
 ## Matlab-common-code
-This repo is a common place for MATLAB functions to do common dynamics operations. Look at the various functions to see the suite of functions. 
+This repo is a common place for MATLAB functions which are written by EMSSL folks. Look at the various functions to see the suite of functions. Contains functions for aerodynamics, dynamics, and optimization. Use these codes at your own risk as some contain bugs! If you find a bug, CREATE AN ISSUE! 
