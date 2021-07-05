@@ -1,0 +1,14 @@
+xd=, yd=, zd=, uBd=, vBd=, wBd=, q0d=, q1d=, q2d=, q3d=, wxd=, wyd=, wzd=
+uB
+vB
+wB
+(Lx^4*wy^2*xB + Lx^4*wz^2*xB + 2*Lx^4*vB*wz - 2*Lx^4*wB*wy + Lx^2*Ly^2*wy^2*xB + Lx^2*Ly^2*wz^2*xB + Lx^2*Lz^2*wy^2*xB + Lx^2*Lz^2*wz^2*xB + Ly^2*Lz^2*wy^2*xB + Ly^2*Lz^2*wz^2*xB + 2*Lx^4*g*q0*q2 - 2*Lx^4*g*q1*q3 - 2*Lx^4*wx*wy*yB - 2*Lx^4*wx*wz*zB + 2*Lx^2*Ly^2*vB*wz + 2*Lx^2*Lz^2*vB*wz + 2*Ly^2*Lz^2*vB*wz - 2*Lx^2*Ly^2*wB*wy - 2*Lx^2*Lz^2*wB*wy - 2*Ly^2*Lz^2*wB*wy + 2*Lx^2*Ly^2*g*q0*q2 - 2*Lx^2*Ly^2*g*q1*q3 + 2*Lx^2*Lz^2*g*q0*q2 - 2*Lx^2*Lz^2*g*q1*q3 + 2*Ly^2*Lz^2*g*q0*q2 - 2*Ly^2*Lz^2*g*q1*q3 - 2*Lx^2*Lz^2*wx*wy*yB - 2*Lx^2*Ly^2*wx*wz*zB)/((Lx^2 + Ly^2)*(Lx^2 + Lz^2))
+-(2*Ly^4*uB*wz - Ly^4*wz^2*yB - Ly^4*wx^2*yB - 2*Ly^4*wB*wx - Lx^2*Ly^2*wx^2*yB - Lx^2*Lz^2*wx^2*yB - Lx^2*Ly^2*wz^2*yB - Ly^2*Lz^2*wx^2*yB - Lx^2*Lz^2*wz^2*yB - Ly^2*Lz^2*wz^2*yB + 2*Ly^4*g*q0*q1 + 2*Ly^4*g*q2*q3 + 2*Ly^4*wx*wy*xB + 2*Ly^4*wy*wz*zB + 2*Lx^2*Ly^2*uB*wz + 2*Lx^2*Lz^2*uB*wz + 2*Ly^2*Lz^2*uB*wz - 2*Lx^2*Ly^2*wB*wx - 2*Lx^2*Lz^2*wB*wx - 2*Ly^2*Lz^2*wB*wx + 2*Lx^2*Ly^2*g*q0*q1 + 2*Lx^2*Ly^2*g*q2*q3 + 2*Lx^2*Lz^2*g*q0*q1 + 2*Lx^2*Lz^2*g*q2*q3 + 2*Ly^2*Lz^2*g*q0*q1 + 2*Ly^2*Lz^2*g*q2*q3 + 2*Ly^2*Lz^2*wx*wy*xB + 2*Lx^2*Ly^2*wy*wz*zB)/((Lx^2 + Ly^2)*(Ly^2 + Lz^2))
+(Lz^4*g*q1^2 - Lz^4*g*q0^2 + Lz^4*g*q2^2 - Lz^4*g*q3^2 + Lz^4*wx^2*zB + Lz^4*wy^2*zB + 2*Lz^4*uB*wy - 2*Lz^4*vB*wx + Lx^2*Ly^2*wx^2*zB + Lx^2*Ly^2*wy^2*zB + Lx^2*Lz^2*wx^2*zB + Lx^2*Lz^2*wy^2*zB + Ly^2*Lz^2*wx^2*zB + Ly^2*Lz^2*wy^2*zB - 2*Lz^4*wx*wz*xB - 2*Lz^4*wy*wz*yB + 2*Lx^2*Ly^2*uB*wy + 2*Lx^2*Lz^2*uB*wy + 2*Ly^2*Lz^2*uB*wy - 2*Lx^2*Ly^2*vB*wx - 2*Lx^2*Lz^2*vB*wx - 2*Ly^2*Lz^2*vB*wx - Lx^2*Ly^2*g*q0^2 + Lx^2*Ly^2*g*q1^2 + Lx^2*Ly^2*g*q2^2 - Lx^2*Ly^2*g*q3^2 - Lx^2*Lz^2*g*q0^2 + Lx^2*Lz^2*g*q1^2 + Lx^2*Lz^2*g*q2^2 - Lx^2*Lz^2*g*q3^2 - Ly^2*Lz^2*g*q0^2 + Ly^2*Lz^2*g*q1^2 + Ly^2*Lz^2*g*q2^2 - Ly^2*Lz^2*g*q3^2 - 2*Ly^2*Lz^2*wx*wz*xB - 2*Lx^2*Lz^2*wy*wz*yB)/((Lx^2 + Lz^2)*(Ly^2 + Lz^2))
+- (q1*wx)/2 - (q2*wy)/2 - (q3*wz)/2
+(q0*wx)/2 - (q3*wy)/2 + (q2*wz)/2
+(q3*wx)/2 + (q0*wy)/2 - (q1*wz)/2
+(q1*wy)/2 + (q0*wz)/2 - (q2*wz)/2
+-(wy*wz*(Ly^2 - Lz^2))/(Ly^2 + Lz^2)
+(wx*wz*(Lx^2 - Lz^2))/(Lx^2 + Lz^2)
+-(wx*wy*(Lx^2 - Ly^2))/(Lx^2 + Ly^2)
