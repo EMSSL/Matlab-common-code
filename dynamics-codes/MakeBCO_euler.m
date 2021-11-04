@@ -10,6 +10,8 @@ function [BCO] = MakeBCO_euler(ang1, ang2, ang3, seq)
 % 2020-10-18, initial revision
 % 2021-06-14, rev1, fixed issues with symbolics v floats 
 
+% XYZ -> BCO = MakeBCO_euler('psi', 'phi', 'theta', 'XYZ')
+
 % make matrices
 R1 = populate(seq(1), ang1);
 if isa(ang1, 'float') == 1
@@ -37,7 +39,8 @@ if isa(ang3, 'float') == 1
 end
 
 % multiply - euler sequence notation
-% EulerSequence(X, Y, Z) -> BCO = RZ*RY*RZ
+% EulerSequence(X, Y, Z) -> BCO = RZ*RY*RX
+% keyboard
 BCO = R3*R2*R1;
 
 
